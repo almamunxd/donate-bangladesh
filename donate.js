@@ -34,7 +34,7 @@ function handelNoakhaliDonation() {
         historyCard.innerHTML = historyContent;
         document.getElementById('history-list').appendChild(historyCard);
         document.getElementById('donation-amount-input-noakhali').value = '';
-
+        alert('Donation complete!');
 
     } else {
         alert("Invalid donation amount or insufficient balance.")
@@ -86,6 +86,7 @@ function handelFeniDonation() {
         historyCard.innerHTML = historyContent;
         document.getElementById('history-list').appendChild(historyCard);
         document.getElementById('donation-amount-input-feni').value = '';
+        alert('Donation complete!');
 
     } else {
         alert('Invalid donation amount or insufficient balance.')
@@ -132,6 +133,7 @@ function handelQuotaDonation() {
         historyCard.innerHTML = historyContent;
         document.getElementById('history-list').appendChild(historyCard);
         document.getElementById('donation-amount-input-quota').value = '';
+        alert('Donation complete!');
 
     } else {
         alert('Invalid donation amount or insufficient balance.')
